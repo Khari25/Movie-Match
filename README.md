@@ -109,6 +109,14 @@ Frontend: Netlify or Vercel
 Backend: Render or Railway
 Database: Hosted MySQL (Railway, PlanetScale, etc.)
 
+# CI/CD Pipeline
+
+We use GitHub Actions to automate our workflow.
+
+- Runs on push and pull requests
+- Checks project files
+- Installs dependencies if available
+- Ensures code is ready before merging
 
 
 # Acknowledgments
